@@ -3,7 +3,7 @@ from utils import run_agent_sync
 
 st.set_page_config(page_title="MCP POC", page_icon="🤖", layout="wide")
 
-st.title("Pradeep (MCP) - Learning Path Generator")
+st.title("Pradeep's (MCP) - Learning Path Generator")
 
 # Initialize session state for progress
 if 'current_step' not in st.session_state:
